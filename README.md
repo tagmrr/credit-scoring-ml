@@ -1,7 +1,6 @@
 # credit-scoring-ml
 ML-модель бинарной классификации для оценки кредитоспособности заёмщиков: EDA, Feature Engineering, Baseline и Gradient Boosting с подбором порога.
 
-```markdown
 # Кредитный скоринг: предсказание дефолтов заёмщиков
 
 ## Описание проекта
@@ -70,7 +69,6 @@ ML-модель бинарной классификации для оценки 
 
 Требования: Python 3.10 или 3.11.
 
-```bash
 # Клонировать репозиторий
 git clone <ссылка-на-репозиторий>
 cd <название-репозитория>
@@ -80,18 +78,18 @@ pip install -r requirements.txt
 
 # Запустить Jupyter Notebook
 jupyter notebook credit_scoring.ipynb
-```
+
 
 ## Структура репозитория
 
-```
+
 credit-scoring-ml/
 ├── credit_scoring.ipynb   # основной ноутбук
 ├── requirements.txt       # зависимости
 ├── train.csv              # обучающая выборка
 ├── test.csv               # тестовая выборка
 └── README.md
-```
+
 
 ## Используемые библиотеки
 
@@ -102,6 +100,5 @@ credit-scoring-ml/
 - scikit-learn
 
 ## Автор
-
+Тагаева М.Р.
 Проект выполнен в рамках учебной задачи по машинному обучению.
-```
